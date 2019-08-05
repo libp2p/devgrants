@@ -10,9 +10,9 @@
   src="https://img.shields.io/twitter/follow/libp2p.svg?style=social&label=Follow%20@libp2p"
   alt="Follow on Twitter"></a> </p>
 
-> **This repository tracks projects, initiatives and substantial chunks of
-> libp2p-related work that are – or may become – incentivized, for talented
-> OSS contributors to pick up and tackle.**
+> **This repository tracks projects, initiatives and chunks of
+> libp2p work that are – or may become – incentivized, for
+> talented OSS contributors to pick up and tackle.**
 
 > This is an issue-only repository. Please refer to the [issue
 > tracker](https://github.com/libp2p/bountied-projects/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
