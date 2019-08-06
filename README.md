@@ -11,13 +11,13 @@
   alt="Follow on Twitter"></a> </p>
 
 > **This repository tracks projects, initiatives and chunks of
-> libp2p work that are – or may become – incentivized, for
+> libp2p work that are (or may become) incentivized, for
 > talented OSS contributors to pick up and tackle.**
 
 > This is an issue-only repository. Please refer to the [issue
-> tracker](https://github.com/libp2p/bountied-projects/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
+> tracker](https://github.com/libp2p/devgrants/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 > or to the [master project
-> board](https://github.com/libp2p/bountied-projects/projects/1) for an
+> board](https://github.com/libp2p/devgrants/projects/1) for an
 > overview of the pipeline.
 
 ## Table of contents
@@ -37,11 +37,11 @@
 
 ## What is this? ❓
 
-This repository tracks projects, initiatives and substantial chunks of
-libp2p-related work that are – or may become – incentivized, for talented OSS
+This repository tracks projects, initiatives and chunks of
+libp2p work that are (or may become) incentivized, for talented OSS
 contributors to pick up and tackle.
 
-Objects of bountying include: protocol implementation, tooling implementation,
+Objects of devgrants include: protocol implementation, tooling implementation,
 research, testing, optimization, etc. They may target one or more libp2p
 libraries, or they may be universal efforts to advance the entire ecosystem.
 
@@ -53,7 +53,7 @@ categorize issues on various axes through GitHub labels:
 * Readiness: Yes, No.
 * Programming languages (e.g. Go, Rust, JS, Java, etc.)
 * Topics (e.g. security, DHT, pubsub, etc.)
-* Selected (e.g. for )
+* Selected (e.g. for hackathon X, round Y, etc.)
 
 ## Motivation 🎈
 
@@ -70,7 +70,7 @@ enumerate, discuss, and agree on jointly funding crucial, substantial chunks of
 work that, when addressed, would benefit various actors synergystically, or
 even the entire ecosystem altogether.
 
-Note: how bounties are actually allocated, contracts signed and payments
+Note: how devgrants are actually allocated, contracts signed and payments
 settled is out of the scope of this repo. This may happen through hackathons
 (e.g. ETHBerlin), privately, or eventually via some kind of [Decentralized
 Autonomous
@@ -95,7 +95,8 @@ said, we generally expect things to go down like this:
    guidance or references, in order to streamline the ramping up of the
    grantee.
 4. The scoped & spec'ed proposal is once again reviewed by the community.
-   Additional projects may chime in to co-fund.
+   Additional projects may chime in to co-fund. After a sensible period,
+   the committed grant amount will be locked in the proposal description.
 5. Via the assigned off-band mechanism (hackathon, email, DAO), contributors
    signal interest, and co-funders communicate to select a grantee.
 6. That grantee delivers the project.
