@@ -14,7 +14,7 @@ assignees: raulk
 
 # Value
 
-<!-- Help the community understand the worth of carrying out this project. -->
+<!-- Help the community understand the worth of carrying out this project, by filling out the benefits and risks subsections. Write any general comments here. -->
 
 ## Benefits (if addressed)
 
