@@ -3,7 +3,7 @@ name: Project proposal
 about: 'Propose a project to be incentivized or sponsored (anybody can propose a project:
   community members, downstream users, funders to seek co-funding).'
 title: ''
-labels: 'Status: Proposed'
+labels: 'Status: Proposed, Ready for work: No, Kind: Proposal, Status: Drafting'
 assignees: raulk
 
 ---
