@@ -3,7 +3,7 @@ name: Project proposal
 about: 'Propose a project to be incentivized or sponsored (anybody can propose a project:
   community members, downstream users, funders to seek co-funding).'
 title: ''
-labels: 'Status: Proposed, Ready for work: No, Kind: Proposal, Status: Drafting'
+labels: 'Kind: Proposal, Ready for work: No, Status: Drafting, Status: Proposed'
 assignees: raulk
 
 ---
@@ -14,15 +14,23 @@ assignees: raulk
 
 # Value
 
-<!-- Help the community understand the worth of carrying out this project, by filling out the benefits and risks subsections. Write any general comments here. -->
+<!-- Fill out the benefits and risks subsections below to help the community understand the value/worth of carrying out this project. Write any general comments here. -->
 
 ## Benefits (if addressed)
 
-<!-- Describe how addressing this project would result in positive effects for the libp2p stack, community, implementers (people _building_ libp2p), downstream users (developers _using_ libp2p in their projects), etc. -->
+<!-- Enumerate how addressing this project would result in positive effects for the libp2p stack, community, implementers (people _building_ libp2p), downstream users (developers _using_ libp2p in their projects), etc. -->
+
+1. Benefit 1.
+2. Benefit 2.
+3. Benefit 3.
 
 ## Risks (if not addressed)
 
-<!-- Describe what would be harmed, damaged or rendered inefficient if the community decides to discard this project (including possible worst case scenarios). -->
+<!-- Enumerate what would be harmed, damaged or rendered inefficient if the community decides to discard this project (including possible worst case scenarios). -->
+
+1. Risk 1.
+2. Risk 2.
+3. Risk 3.
 
 # Expected output and constraints
 
