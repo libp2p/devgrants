@@ -89,17 +89,16 @@ referencing the devgrant by GitHub issue number.
 
 ## Submitting a proposal 📝
 
-_This is all new and we're still figuring out the process and details, so bear
-with us :-)_
+> _This is all new and we're still figuring out the process and details, so
+> bear with us :-)_
 
-Submitting a project proposal is easy. It consists of filing an issue and an
-associated PR following a simple template.
+Submitting a project proposal is easy. It consists of filing an issue, and an
+associated PR, following a simple template.
 
-Here's the how-to:
+**Here's the how-to:**
 
 1. File an issue with the title of the proposal as a placeholder. Take note of
    the issue number.
-
 2. Fork the repo, and copy the file `TEMPLATES/000-project-proposal.md` to the
    root of your fork.
     * Fill in as much detail as you can.
@@ -108,33 +107,28 @@ Here's the how-to:
       low.
     * In the filename, replace `000` with the number of the placeholder issue
       you created above.
-
 3. Submit a PR to this repo. Make sure you enable the _[allow edits from
    maintainers]_ option in the PR screen. Then go back and edit the issue,
    adding a link to the new PR.
 
-That's all! Here's what happens next:
+**That's all! Here's what happens next:**
 
 1. The community reviews the proposal PR, enhances it, refines it, discusses
    it, etc.
       * This is deliberately left unstructured, but we expect downstream
         project(s) to chime in to champion, and tentatively commit to fund XYZ
         amount towards the execution.
-
-2. A senior libp2p community member comes along and fills in technical details
-   to lock down scope, write up an actionable spec, and provide resources,
-   guidance or references, in order to streamline the ramping up of the
-   grantee.
+2. An experienced libp2p community member comes along and fills in technical
+   details to lock down scope, write up an actionable spec, and provide 
+   resources, guidance or references, in order to streamline the ramping up of
+   the grantee.
       * They will need to commit to your PR's branch, that's why we need the
         "allow edits from maintainers" option enabled.
-
 3. The scoped & spec'ed proposal is once again reviewed by the community.
    Additional projects may chime in to co-fund. After a sensible period,
    the committed grant amount will be locked in the proposal description.
-
 4. Via the assigned off-band mechanism (hackathon, email, DAO), contributors
    signal interest, and co-funders communicate to select a grantee.
-
 5. That grantee delivers the project.
 
 ## For developers 👾
