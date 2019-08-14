@@ -1,4 +1,4 @@
-# Title ()
+# Project title
 
 ## Motivation and context
 

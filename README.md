@@ -93,14 +93,14 @@ referencing the devgrant by GitHub issue number.
 > bear with us :-)_
 
 Submitting a project proposal is easy. It consists of filing an issue, and an
-associated PR, following a simple template.
+associated PR, following a [simple template].
 
 **Here's the how-to:**
 
 1. File an issue with the title of the proposal as a placeholder. Take note of
    the issue number.
-2. Fork the repo, and copy the file `TEMPLATES/000-project-proposal.md` to the
-   root of your fork.
+2. Fork the repo, and copy the file [`TEMPLATES/000-project-proposal.md`] to 
+   the root of your fork.
     * Fill in as much detail as you can.
     * The submission doesn't need to be perfect, we can sort out details
       later. At this stage, we want to keep the barrier to propose a project
@@ -150,3 +150,5 @@ Dual-licensed under MIT and ASLv2, by way of the [Permissive License Stack].
 [issue tracker]: https://github.com/libp2p/devgrants/issues
 [@raulk]: https://github.com/raulk
 [Permissive LIcense Stack]: https://protocol.ai/blog/announcing-the-permissive-license-stack/
+[simple template]: https://github.com/libp2p/devgrants/blob/master/TEMPLATES/000-project-proposal.md
+[`TEMPLATES/000-project-proposal.md`]: https://github.com/libp2p/devgrants/blob/master/TEMPLATES/000-project-proposal.md
