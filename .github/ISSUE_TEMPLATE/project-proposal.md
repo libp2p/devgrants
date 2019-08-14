@@ -10,6 +10,8 @@ assignees: raulk
 
 <!-- ^^ Please set the title of this issue to the project name. ^^^ -->
 
+This issue is specified here: `(TBD – indicate the pull request number once you've filed it)`.
+
 <!-- 
      Fork the repo, and copy the file `TEMPLATES/000-project-proposal.md` to the root of your fork.
 
@@ -18,6 +20,4 @@ assignees: raulk
       * In the filename, replace `000` with the number of the placeholder issue you created above.
 
      Then submit a PR to this repo. Make sure you enable the "allow edits from maintainers" option in the PR screen. Then go back and edit the issue, adding a link to the new PR.
--->
-
-This issue is specified here: `(TBD – indicate the pull request number once you've filed it)`.
+-->s
