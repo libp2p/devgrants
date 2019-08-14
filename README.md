@@ -10,15 +10,14 @@
   src="https://img.shields.io/twitter/follow/libp2p.svg?style=social&label=Follow%20@libp2p"
   alt="Follow on Twitter"></a> </p>
 
-> **This repository tracks projects, initiatives and chunks of
-> libp2p work that are (or may become) incentivized, for
-> talented OSS contributors to pick up and tackle.**
+> **This repository tracks projects, initiatives and chunks of libp2p work
+> that are (or may become) incentivized, for enthusiastic OSS contributors to
+> pick up and tackle.**
 
-> This is an issue-only repository. Please refer to the [issue
-> tracker](https://github.com/libp2p/devgrants/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
-> or to the [master project
-> board](https://github.com/libp2p/devgrants/projects/1) for an
-> overview of the pipeline.
+> Refer to the [issue tracker] to browse what's being funded and/or discussed,
+> and what's the status of proposals. Explore the [labels] for quicker
+> navigation.
+
 
 ## Table of contents
 
@@ -28,6 +27,7 @@
 
 - [What is this? ❓](#what-is-this-)
 - [Motivation 🎈](#motivation-)
+- [Repo structure 🧩](#repo-structure-)
 - [Submitting a proposal 📝](#submitting-a-proposal-)
 - [For developers 👾](#for-developers-)
 - [Need help? 🙌](#need-help-)
@@ -45,8 +45,11 @@ Objects of devgrants include: protocol implementation, tooling implementation,
 research, testing, optimization, etc. They may target one or more libp2p
 libraries, or they may be universal efforts to advance the entire ecosystem.
 
-We track project proposals as GitHub issues. To make browsing easier, we
-categorize issues on various axes through GitHub labels:
+We track project proposals as GitHub issues, and specifications as markdown
+documents. To make browsing easier, you can find the latest project statuses
+and discussions in this repo's [issue tracker].
+
+Issues are categorized along various axes using [labels]:
 
 * Complexity: Low, Medium, Hard, Extreme.
 * Status: Proposed, Funded, Delivered, Discarded.
@@ -73,33 +76,60 @@ even the entire ecosystem altogether.
 Note: how devgrants are actually allocated, contracts signed and payments
 settled is out of the scope of this repo. This may happen through hackathons
 (e.g. ETHBerlin), privately, or eventually via some kind of [Decentralized
-Autonomous
-Organization](https://twitter.com/ameensol/status/1154529769276362752) (how
-cool would that be 😎).
+Autonomous Organization] (how cool would that be 😎).
+
+## Repo structure 🧩
+
+Each proposal/devgrant is tracked in a dedicated **issue**. The [issue
+tracker] indexes and tracks the status of project proposals and devgrants. It
+also serves as the discussion forum.
+
+**Specifications** live in markdown documents, with their filenames
+referencing the devgrant by GitHub issue number.
 
 ## Submitting a proposal 📝
 
-This is all new and we're still figuring out the process and details. That
-said, we generally expect things to go down like this:
+> _This is all new and we're still figuring out the process and details, so
+> bear with us :-)_
 
-1. Somebody submits a _Project proposal_ by filing an issue and filling out
-   the lightweight template. The submission doesn't need to be perfect, we can
-   sort out details later. At this stage, we want to keep the barrier to
-   propose a project low.
-2. The community reviews the proposal, enhances it, refines it, discusses it,
-   etc. This is deliberately left unstructured, but we expect downstream
-   project(s) to chime in to champion, and tentatively commit to fund XYZ
-   amount towards the execution.
-3. A senior libp2p community member comes along and fills in technical details
-   to lock down scope, write up an actionable spec, and provide resources,
-   guidance or references, in order to streamline the ramping up of the
-   grantee.
-4. The scoped & spec'ed proposal is once again reviewed by the community.
+Submitting a project proposal is easy. It consists of filing an issue, and an
+associated PR, following a simple template.
+
+**Here's the how-to:**
+
+1. File an issue with the title of the proposal as a placeholder. Take note of
+   the issue number.
+2. Fork the repo, and copy the file `TEMPLATES/000-project-proposal.md` to the
+   root of your fork.
+    * Fill in as much detail as you can.
+    * The submission doesn't need to be perfect, we can sort out details
+      later. At this stage, we want to keep the barrier to propose a project
+      low.
+    * In the filename, replace `000` with the number of the placeholder issue
+      you created above.
+3. Submit a PR to this repo. Make sure you enable the _[allow edits from
+   maintainers]_ option in the PR screen. Then go back and edit the issue,
+   adding a link to the new PR.
+
+**That's all! Here's what happens next:**
+
+1. The community reviews the proposal PR, enhances it, refines it, discusses
+   it, etc.
+      * This is deliberately left unstructured, but we expect downstream
+        project(s) to chime in to champion, and tentatively commit to fund XYZ
+        amount towards the execution.
+2. An experienced libp2p community member comes along and fills in technical
+   details to lock down scope, write up an actionable spec, and provide 
+   resources, guidance or references, in order to streamline the ramping up of
+   the grantee.
+      * They will need to commit to your PR's branch, that's why we need the
+        "allow edits from maintainers" option enabled.
+3. The scoped & spec'ed proposal is once again reviewed by the community.
    Additional projects may chime in to co-fund. After a sensible period,
    the committed grant amount will be locked in the proposal description.
-5. Via the assigned off-band mechanism (hackathon, email, DAO), contributors
+4. Via the assigned off-band mechanism (hackathon, email, DAO), contributors
    signal interest, and co-funders communicate to select a grantee.
-6. That grantee delivers the project.
+5. That grantee delivers the project.
 
 ## For developers 👾
 
@@ -108,9 +138,15 @@ discussion as potential grantees.
 
 ## Need help? 🙌
 
-For questions or feedback, contact: [@raulk](https://github.com/raulk).
+For questions or feedback, contact: [@raulk].
 
 ## License
 
-Dual-licensed under MIT and ASLv2, by way of the [Permissive License
-Stack](https://protocol.ai/blog/announcing-the-permissive-license-stack/).
+Dual-licensed under MIT and ASLv2, by way of the [Permissive License Stack].
+
+[labels]: https://github.com/libp2p/devgrants/labels
+[Decentralized Autonomous Organization]: https://twitter.com/ameensol/status/1154529769276362752
+[allow edits from maintainers]: https://help.github.com/en/articles/allowing-changes-to-a-pull-request-branch-created-from-a-fork
+[issue tracker]: https://github.com/libp2p/devgrants/issues
+[@raulk]: https://github.com/raulk
+[Permissive LIcense Stack]: https://protocol.ai/blog/announcing-the-permissive-license-stack/
