@@ -42,3 +42,9 @@ The implementation of the `js-libp2p-tls` module compatible with the `connEncryp
 There is currently no interface for connection encryption. In order to easily plug into js-libp2p, the TLS implementation should follow the interface of Secio, https://github.com/libp2p/js-libp2p-secio/blob/v0.11.1/src/index.js.
 
 **Note**: js-libp2p is moving away from pull stream usage to use async iterators instead, and is also moving away from callbacks. Ideally the TLS implementation should leverage async iterators, however, if this is a blocker the conversion from pull streams should be fairly straight forward.
+
+## Potential funders
+
+<!-- Optional: know of projects or organizations that would benefit from seeing this project come to fruition? Enumerate them here, supplying some context, and possibly mention the relevant people. -->
+
+Protocol Labs.
