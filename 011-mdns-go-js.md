@@ -44,4 +44,4 @@ Non-issues:
 
 <!-- Optional: know of projects or organizations that would benefit from seeing this project come to fruition? Enumerate them here, supplying some context, and possibly mention the relevant people. -->
 
-Protocol Labs.
+ETHBerlinZwei, Protocol Labs.
