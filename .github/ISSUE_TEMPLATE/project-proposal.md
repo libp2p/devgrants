@@ -3,14 +3,14 @@ name: Project proposal
 about: 'Propose a project to be incentivized or sponsored (anybody can propose a project:
   community members, downstream users, funders to seek co-funding).'
 title: ''
-labels: 'Kind: Proposal, Ready for work: No, Status: Drafting, Status: Proposed'
+labels: 'Ready for work: No, Kind: Proposal, Status: Drafting'
 assignees: raulk
 
 ---
 
 <!-- ^^ Please set the title of this issue to the project name. ^^^ -->
 
-This issue is specified here: `(TBD – indicate the pull request number once you've filed it)`.
+This project is specified here: `(TBD – indicate the pull request number once you've filed it)`.
 
 <!-- 
      Fork the repo, and copy the file `TEMPLATES/000-project-proposal.md` to the root of your fork.
