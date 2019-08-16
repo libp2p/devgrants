@@ -15,7 +15,7 @@ We need to understand how malicious users could misuse libp2p's gossipsub to cre
 
 <!-- Help the community understand the worth of carrying out this project, by filling out the benefits and risks subsections. Write any general comments here. -->
 
-Without an explicit threat model, it is hard to say whether libp2p gossipsub is "secure" or "not secure."  Most likely, there will be some attacks we can prevent entirely, and others for which we can only raise the cost of an attack but can never fully guarantee against.  Completion of this dev grant will enumerate all possible attacks against a gossipsub-based network and allow us to define explicitly which libp2p is and isn't resilient against.  Moreover, for attacks where we can only raise the cost, but not prevent, the grantee will calculate the approximate cost of carrying out the attack. 
+Without an explicit threat model, it is hard to say whether libp2p gossipsub is "secure" or "not secure."  Most likely, there will be some attacks we can prevent entirely, and others for which we can only raise the cost of an attack but can never fully guarantee against.  Completion of this dev grant will enumerate all possible attacks against a gossipsub-based network and allow us to define explicitly what the existing version of gossipsub is and isn't resilient against.  Moreover, for attacks where we can only raise the cost, but not prevent, the grantee will calculate the approximate cost of carrying out the attack. 
 
 ## Benefits (if addressed)
 
@@ -29,7 +29,7 @@ Have a well-defined threat model will bring clarity to the community about what 
 
 Failing to define an explicit threat model will lead to confusion in the community about what is meant by saying gossipsub isn't "secure" or that a certain attack is/isn't "possible".  This might cause Ethereum 2.0 designers and application developers to put too much trust into gossipsub, and then be disappointed when a successful attack occurs.
 
-In addition, not having a clearly-defined threat model is an invitation for unscrupulous actors to sow Fear, Uncertainty and Doubt (FUD) about Ethereum 2.0.  Statements like "Ethereum 2.0 relies on an insecure gossipsub protocol" could appear on social media or in the press, and the Ethereum community won't be able to combat these deceptive statements because we won't have a threat model that defines explicitly what we mean by _secure_ in the gossipsub context.
+In addition, not having a clearly-defined threat model is an invitation for unscrupulous actors to sow Fear, Uncertainty and Doubt (FUD) about Ethereum 2.0 and libp2p.  Statements like "Ethereum 2.0 relies on an insecure gossipsub protocol" could appear on social media or in the press, and the Ethereum community won't be able to combat these deceptive statements because we won't have a threat model that defines explicitly what we mean by _secure_ in the gossipsub context.
 
 # Expected output and constraints
 
@@ -37,6 +37,7 @@ In addition, not having a clearly-defined threat model is an invitation for unsc
 
 - The expected output is a threat model document that outlines each category of possible attacks and whether gossipsub is secure against, not secure against it, or not secure against it but requires substantial attack resources.  (The notion of "substantial resources" should be quantified, or at least estimated, for the last category of attack.)  This will provide a framework to know whether a particular vulnerability is a bug or a previously-known limitation.
 - The document should explain the _implications_ of each category of attacks on the Ethereum 2.0 network.  The grantee may wish to provide a rubric, e.g., DoS attacks that could slow or halt the network might be considered a less severe category than attacks that allow the attacker to steal funds or alter a transaction after it has been accepted.
+- Exploit code demonstrating all or some of the reported attacks will be very well received.
 
 # Relevant discussion
 
